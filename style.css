@@ -1,0 +1,81 @@
+.container {
+  width: 500px;
+  /* height: 300px; */
+  margin: 5px auto;
+  padding: 30px;
+  border: 1px solid red;
+  box-shadow: 1px 2px 2px rgb(2, 13, 129);
+}
+label {
+  color: rgb(96, 17, 193);
+  font-weight: bold;
+  font-size: larger;
+  margin: 20px;
+}
+
+input {
+  width: 11rem;
+  height: 2rem;
+  color: rgb(24, 6, 185);
+  font-weight: bold;
+  font-size: medium;
+  text-transform: capitalize;
+  margin: 6px;
+  border: none;
+  border: 1px solid blue;
+  box-shadow: 2px 1px 3px 0;
+  padding: 0px 20px;
+  border-radius: 3px;
+  
+}
+::placeholder {
+  color: rgb(7, 45, 95);
+  opacity: 0.4;
+  padding: 20px;
+  font-size: 14px;
+}
+input:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  color: rgb(210, 210, 234);
+  font-size: 25px;
+  font-weight: bold;
+  width: 130px;
+  height: 50px;
+  background-color: rgb(62, 20, 180);
+
+}
+#subBtn:active{
+transition: 0.3s;
+background-color: rgb(30, 2, 55);
+color: rgb(201, 211, 211);
+outline: solid 4px red;
+}
+#belowHeader{
+  width: 450px;
+  padding: 5px;
+  display: flex;
+  justify-content:space-between;
+
+}
+.boxes{
+  width: fit-content;
+color:rgb(3, 3, 161) ;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 4px;
+  text-transform:capitalize ;
+  box-shadow: 2px 2px 2px  rgb(14, 5, 137);
+margin: 0 20px;
+}
